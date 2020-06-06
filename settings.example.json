@@ -1,4 +1,11 @@
 {
+  "oauth": {
+    "clientId": "580746584338464769",
+    "clientSecret": "9Erb1qfb1FZcGu03IuCpKO0n7D141s8y",
+    "redirectUri": "http://localhost:8020/auth",
+    "scope": "identify",
+    "grantType": "authorization_code"
+  },
   "database": {
     "host": "localhost",
     "user": "serversettings",

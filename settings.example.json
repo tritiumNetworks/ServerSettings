@@ -1,0 +1,19 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "serversettings",
+    "password": "srvset1234",
+    "database": "serversettings"
+  },
+  "port": 8020,
+  "token": "",
+  "guild": "541782241131495434",
+  "roles": [
+    {
+      "name": "중요공지",
+      "desc": "매우 중요한 공지들입니다\n다른 공지들처럼 막쓰지 않습니다",
+      "id": "718443762073862275",
+      "default": true
+    }
+  ]
+}

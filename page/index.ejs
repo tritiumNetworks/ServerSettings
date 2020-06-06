@@ -50,8 +50,8 @@
       <h1 class="display-4">
         Settings.
       </h1>
-      <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=580746584338464769&redirect_uri=http%3A%2F%2Flocalhost%3A8020%2Fauth&response_type=code&scope=identify">로그인</a>
+      <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=580746584338464769&redirect_uri=<%= encodeURI(settings.oauth.redirectUri) %>&response_type=code&scope=identify">로그인</a>
     <% } %>
-  </div>
+    </div>
 </body>
 </html>
